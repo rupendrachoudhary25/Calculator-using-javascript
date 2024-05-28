@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fully Functional Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <div>
+            <input type="number" id="firstNumber" placeholder="Type first number">
+            <input type="number" id="secondNumber" placeholder="Type second number">
+            <button onclick="setOperator('+')">+</button>
+            <button onclick="setOperator('-')">-</button>
+            <button onclick="setOperator('/')">/</button>
+            <button onclick="setOperator('*')">*</button>
+            <button onclick="myFunction()">=</button>
+
+
+            <p id="demo">Output</p>
+            <button onclick="clearFields()">Clear</button>
+        </div>
+    </center>
+    <script src="script.js"></script>
+</body>
+
+</html>
